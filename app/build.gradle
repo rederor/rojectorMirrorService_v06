@@ -1,0 +1,17 @@
+plugins { id "com.android.application" }
+
+android {
+    namespace "pl.test1.projectormirrorservice"
+    compileSdk 35
+    defaultConfig {
+        applicationId "pl.test1.projectormirrorservice"
+        minSdk 23
+        targetSdk 35
+        versionCode 6
+        versionName "0.6-handshake-le"
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
